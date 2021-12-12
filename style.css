@@ -1,0 +1,14 @@
+.front-pages{
+    background: cadetblue;
+    text-align: center;
+    height: 10em;
+    width: 100%;
+}
+
+.footer{
+    background: cadetblue;
+    color: #ffffff;
+    text-align: center;
+    height: 200px;
+    line-height: 50px;
+}
