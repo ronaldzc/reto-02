@@ -1,3 +1,7 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
 .front-pages{
     background: cadetblue;
     text-align: center;
@@ -10,5 +14,32 @@
     color: #ffffff;
     text-align: center;
     height: 200px;
-    line-height: 50px;
+    line-height: 50px;  
+   
+}
+
+.navigator{
+    float: left;
+    width: calc(20% - 20px);
+    padding: 10px;
+    margin: 0px auto
+}
+
+.section{
+    float: left;
+    width: calc(40% - 40px);
+    padding: 10px;
+    margin: 0px auto;
+}
+
+aside{
+    float: right;
+    width: calc(25% - 25px);
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.container{
+    width: 90%;
+    margin: 0px auto;
 }
